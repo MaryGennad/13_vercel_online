@@ -90,7 +90,7 @@ function getWeather(){
 // })
 
 
-fetch(`http://localhost:3000/api/weather/?currCity=${currCity}&units=${units}`).then(res => res.json()).then(data => {
+fetch(`/api/weather/?currCity=${currCity}&units=${units}`).then(res => res.json()).then(data => {
     console.log(data)
     city.innerHTML = `${data.name}, ${convertCountryCode(data.sys.country)}`
     datetime.innerHTML = convertTimeStamp(data.dt, data.timezone); 
