@@ -1,0 +1,9 @@
+Mongo DB Cloud Atlas
+mariagennadievna
+5fqREuOEZDsZKghN
+
+////////2/////////
+mariagennadievna
+En1qsIT4dbAwbmm9
+
+mongodb+srv://mariagennadievna:En1qsIT4dbAwbmm9@cluster-web-develop.9kt5ss3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster-web-develop
