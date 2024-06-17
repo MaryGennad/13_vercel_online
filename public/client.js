@@ -107,7 +107,7 @@ fetch(`/api/weather/?currCity=${currCity}&units=${units}`).then(res => res.json(
 document.body.addEventListener('historyLoad', getWeather())
 
 function getHistorys(){
-    fetch(`http://localhost:3000/api/log`).then(res => res.json()).then(data => {
+    fetch(`/api/log`).then(res => res.json()).then(data => {
         console.log(data)
         
         let historysElement = document.getElementById('temperature')
